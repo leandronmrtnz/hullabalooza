@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Recoleta;
+  src: url(../assets/font/Recoleta.ttf); }
+
+@font-face {
+  font-family: RecoletaBold;
+  src: url(../assets/fonts/Recoleta-Bold.ttf); }
+
+@font-face {
+  font-family: Carnivale;
+  src: url(../assets/fonts/Carnevalee.ttf); }
+
+@font-face {
+  font-family: Sonder;
+  src: url(../assets/fonts/Sonder.otf); }
+
 .overline_grid {
   display: grid;
   grid-template-columns: auto 100px auto;
@@ -63,22 +79,6 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: large; }
-
-@font-face {
-  font-family: Recoleta;
-  src: url(../assets/font/Recoleta.ttf); }
-
-@font-face {
-  font-family: RecoletaBold;
-  src: url(../assets/fonts/Recoleta-Bold.ttf); }
-
-@font-face {
-  font-family: Carnivale;
-  src: url(../assets/fonts/Carnevalee.ttf); }
-
-@font-face {
-  font-family: Sonder;
-  src: url(../assets/fonts/Sonder.otf); }
 
 .header_title_big {
   margin: 30px; }
@@ -425,7 +425,8 @@ button {
     margin-top: 30px;
     font-family: Sonder;
     font-size: 300%;
-    font-weight: 100; }
+    font-weight: 100;
+    text-align: center; }
 
 input[type=text] {
   width: 100%;
