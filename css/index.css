@@ -290,6 +290,7 @@ footer .copyright {
               font-size: 24px;
               display: block; }
               .outer-menu .menu > div > div > ul > li > a {
+                position: relative;
                 display: inline;
                 cursor: pointer;
                 transition: color 0.4s ease;
