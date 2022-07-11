@@ -1,0 +1,18 @@
+@import './misc/grid.scss';
+@import './misc/variables.scss';
+@import './misc/mixins.scss';
+@import './misc/normalize.scss';
+@import './misc/animations.scss';
+@import './misc/fonts.scss';
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+@import './partials/nav.scss';
+@import './partials/art.scss';
+@import './partials/button.scss';
+
+@import './views/home.scss';
+@import './views/contact.scss';
+@import './views/aboutus.scss';
+@import './views/info.scss';
+@import './views/news.scss';
