@@ -71,6 +71,7 @@
 					color: map-get($colors, accent);
 					font-size: 25px;
 					top: auto;
+					position: relative;
 					margin-right: 10px;
 				}
 			}
@@ -84,6 +85,7 @@
 	.item-arrow {
 		height: 20px;
 		width: 15%;
+		position: relative;
 		text-align: center;
 		font-size: 35px;
 		left: 0;
@@ -139,6 +141,7 @@
 		background-color: map-get($colors, main2);
 		border: 5px solid map-get($colors, main1);
 		box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0,5px 5px 0;
+		position: relative;
 		&:after {
 			content: "";
 			position: absolute;
