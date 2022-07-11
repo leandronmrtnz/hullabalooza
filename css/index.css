@@ -78,7 +78,8 @@ body {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: large; }
+  font-size: large;
+  font-family: Recoleta; }
 
 .header_title_big {
   margin: 30px; }
