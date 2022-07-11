@@ -1,0 +1,68 @@
+.specialevents {
+	p {
+		text-align: center;
+		font-family: RecoletaBold;
+		font-size: xx-large;
+	}
+	.andmore {
+		p {
+			margin-top: 40px;
+			font-size: x-large;
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+	}
+	margin-bottom: 30px;
+}
+
+
+.lineup {
+	margin-bottom: 30px;
+}
+.lineuplists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	justify-items: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+}
+.listperday {
+	text-align: center;
+	margin-bottom: 20px;
+	p {
+		margin-bottom: 0;
+		font-family: RecoletaBold;
+	}
+}
+.firstrow {
+	font-size: x-large;
+}
+.secondrow {
+	font-size: large;
+}
+.thirdrow {
+	font-size: medium;
+}
+
+
+.banner {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: map-get($colors, main2);
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p {
+		color: map-get($colors, accent);
+		margin-bottom: 30px;
+		margin-top: 30px;
+		font-family: Sonder;
+		font-size: 300%;
+		font-weight: 100;
+	}
+}

@@ -1,0 +1,37 @@
+.info-icons {
+	.info-icons_item {
+		img {
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.info-icons_item {
+	text-align: center;
+	padding: 10px;
+	p {
+		margin-top: 20px;
+		font-family: RecoletaBold;
+	}
+}
+.info {
+	h2 {
+		font-family: RecoletaBold;
+		font-size: xx-large;
+		margin-top: 30px;
+	}
+	p {
+		font-size: larger;
+		text-align: center;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}

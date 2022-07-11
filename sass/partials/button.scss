@@ -1,0 +1,45 @@
+
+    .button_container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    button {
+        font-family: RecoletaBold;
+        text-decoration: none;
+        color: #000;
+        margin: auto;
+        width: 250px;
+        display: inline-block;
+        line-height: 40px;
+        background-color: map-get($colors, main1);
+        border: 5px solid #000;
+        box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0,5px 5px 0;
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background-color: map-get($colors, main1);
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+        }
+        &:hover {
+            background-color: transparent;
+            &:after {
+                background-color: map-get($colors, accent);
+            }
+        }
+        &:active {
+            top: 5px;
+            left: 5px;
+            box-shadow: 0 0 0 0;
+        }
+    }
+    

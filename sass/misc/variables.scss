@@ -1,0 +1,28 @@
+
+$colors :(
+    main1: #e2dcc3,
+    main2: #2e2e2e,
+    accent: #e4afad);
+
+
+	@media screen and (max-width: 763px) {
+		.overline_grid {
+			display: none;
+		}
+		nav {
+			.justify-content-center {
+				display: none;
+			}
+		}
+		.header_title_big {
+			display: none;
+		}
+		.header {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.artindex {
+			display: none;
+		}
+	}
+	
